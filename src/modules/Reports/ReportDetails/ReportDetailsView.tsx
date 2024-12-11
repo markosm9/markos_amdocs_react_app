@@ -28,7 +28,7 @@ const ReportDetailsView: React.FC = () => {
   // Define the buttonProps for the back button
   const buttonProps: ButtonProps = {
     value: "Back",
-    onClick: () => navigate(-1),
+    onClick: () => navigate("/reports"),
     icon: faArrowLeft,
   };
 

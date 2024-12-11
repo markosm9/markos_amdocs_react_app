@@ -7,7 +7,7 @@ const useReportsListColumns = () => {
   const navigate = useNavigate();
 
   // Navigate to the selected report
-  const onNavigate = (id: number) => () => navigate(`/report/${id}`);
+  const onNavigate = (id: number) => () => navigate(`/reports/${id}`);
 
   //Return the table columns
   const reportListColumns: DataTableColumn<Report>[] = [

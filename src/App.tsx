@@ -11,7 +11,7 @@ const AppRoutes: React.FC = () => {
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/markos_amdocs_react_app">
       <AppRoutes />
     </Router>
   );

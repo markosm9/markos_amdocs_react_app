@@ -15,7 +15,7 @@ const routes: RouteObject[] = [
     element: <ReportsListView />,
   },
   {
-    path: "/report/:reportId",
+    path: "/reports/:reportId",
     element: <ReportDetailsView />,
   },
 ];
