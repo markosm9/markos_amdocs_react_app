@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/markos_amdocs_react_app/static/css/main.b31c3a57.css",
-    "main.js": "/markos_amdocs_react_app/static/js/main.298800d6.js",
+    "main.js": "/markos_amdocs_react_app/static/js/main.db9f2583.js",
     "static/media/fa-solid-900.ttf": "/markos_amdocs_react_app/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
     "static/media/fa-brands-400.ttf": "/markos_amdocs_react_app/static/media/fa-brands-400.26b80c8830bebf340211.ttf",
     "static/media/fa-solid-900.woff2": "/markos_amdocs_react_app/static/media/fa-solid-900.83a538a018a9e44b023a.woff2",
@@ -12,10 +12,10 @@
     "static/media/fa-v4compatibility.woff2": "/markos_amdocs_react_app/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
     "index.html": "/markos_amdocs_react_app/index.html",
     "main.b31c3a57.css.map": "/markos_amdocs_react_app/static/css/main.b31c3a57.css.map",
-    "main.298800d6.js.map": "/markos_amdocs_react_app/static/js/main.298800d6.js.map"
+    "main.db9f2583.js.map": "/markos_amdocs_react_app/static/js/main.db9f2583.js.map"
   },
   "entrypoints": [
     "static/css/main.b31c3a57.css",
-    "static/js/main.298800d6.js"
+    "static/js/main.db9f2583.js"
   ]
 }
