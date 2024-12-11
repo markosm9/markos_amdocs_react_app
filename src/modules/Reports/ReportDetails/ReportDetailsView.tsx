@@ -6,8 +6,8 @@ import DataTable from "../../../components/DataTable/DataTable";
 import useReportDetailsColumns from "./useReportsDetailsColumns";
 import Loading from "../../../components/Loading/Loading";
 import useReportDetailsFn from "./useReportDetailsFn";
-import Layout from "../../Layout/Layout";
 import { ButtonProps } from "../../../components/Button/Button.types";
+import Layout from "../../../components/Layout/Layout";
 
 const ReportDetailsView: React.FC = () => {
   const navigate = useNavigate();

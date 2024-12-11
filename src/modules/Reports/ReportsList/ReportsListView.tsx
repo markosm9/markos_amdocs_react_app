@@ -3,7 +3,7 @@ import DataTable from "../../../components/DataTable/DataTable";
 import useReportsListEndpoints from "./useReportsListEndpoints";
 import Loading from "../../../components/Loading/Loading";
 import useReportsListColumns from "./useReportsListColumns";
-import Layout from "../../Layout/Layout";
+import Layout from "../../../components/Layout/Layout";
 
 const ReportsListView: React.FC = () => {
   //Get the endpoint response
