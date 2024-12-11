@@ -39,6 +39,18 @@ The source code is available in the GitHub repository:
 
 https://github.com/markosm9/markos_amdocs_react_app.git
 
+However if there is any issue with github website page you can follow the below instructions how to run the project on your local web.
+
+1. download the github repository
+2. navigate to \markos-app
+3. run the below commands
+   - npm install
+   - npm run build
+   - npm start
+4. in a different terminal navigate to /fake-api-server and run node server.js (to start the local server)
+
+You should be able to see the webiste in this url http://localhost:3000/markos_amdocs_react_app
+
 # Note
 
 All the project requirments have been covered exept the below point under Reports List:
