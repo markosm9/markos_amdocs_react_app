@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"; // Import the left arrow icon
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import useReportDetailsEndpoints from "./useReportDetailsEndpoints";
 import DataTable from "../../../components/DataTable/DataTable";
 import useReportDetailsColumns from "./useReportsDetailsColumns";

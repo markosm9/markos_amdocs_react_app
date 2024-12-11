@@ -1,50 +1,55 @@
 # markos_amdocs_react_app
 
-# The Report Viewer App
+# Overview
 
-## Overview
+This is a project developed by Markos Markou for Amdocs, for the position of UI Engineering Specialist.
 
-The account manager of a fictional client company needs to view reports on how employees are making phone calls and using mobile data. The candidate must provide a user interface to the API to allow the account manager to view:
+The project that has been implemented is a Report System, so the account managers can view reports of employees phone call activities and mobile data usage.
 
-- Available reports.
-- Available data for each report for the specified billing period.
+# Tools and Technologies Used
 
-## UI Design
+- React 19: For building the user interface and managing the component-based architecture.
+- TypeScript: For adding type-checking, enhancing code reliability.
+- Tailwind CSS: For styling and creating a responsive, modern design.
+- Node.js: Used to set up the server for handling requests and serving the API.
+- Fake API Server: A mock server was created to simulate API responses.
+- Git: Used for version control and managing project changes.
 
-Feel free to come up with your own, but please notice code quality and technical aspects are way more relevant than design.
+# Project Structure
 
-## API Responses
+- src: Contains all the project source code.
+- components: Reusable components that can be used in views.
+- modules: The main view pages of the system.
+- routes: Defines the application's routing paths.
+- common: Contains shared utility functions and helpers
 
-API responses can be found in the `/api` directory.
+- index.tsx and App.tsx: Included in the src folder for initializing the application, rendering the root component, and handling any errors during system startup.
+- package.json, tsconfig.json and tailwind.config.js are also included to manage project dependencies, TypeScript configuration, and Tailwind CSS setup
+- design was simple as mentioned that designed was not so important in this project
+- server.js file contains the configuration of APIs to fetch the fake data from JSON files.
+- comments also included in the files to explain coding parts
 
-- `/api/reports.json` contains a list of available reports.
-- `/api/reports/{reportId}-{billingPeriod}.json` contains data for the report id `reportId` over the billing period `billingPeriod`.
+# Project Deployment and Source
 
-## Acceptance Criteria
+You do not need to deploy the project locally, as it has been added to the GitHub repository and can be accessed directly in the browser at the following URL:
 
-### Report list
+https://markosm9.github.io/markos_amdocs_react_app
 
-- I want to see a list of available reports.
-- I want to be able to sort the report list by name and description.
-- For each report, I want to see:
-  - The report's name,
-  - The report's description,
-  - A button to navigate to the report results.
+The source code is available in the GitHub repository:
+
+https://github.com/markosm9/markos_amdocs_react_app.git
+
+# Note
+
+All the project requirments have been covered exept the below point under Reports List:
+
 - I want to be able to specify over which billing period a report is run.
 
-### Report view
+I noticed that the provided reports.json file does not contain any data that supports this scenario,
+so the expectations on this point wasn't align with the provided data so the billind period wasn't clear.
+The approach thas was taken, was too show these reports `/api/reports/{reportId}-{billingPeriod}.json`
+and the billingPeriod that has been used was the '201708' to fetch the report for each report id seperately.
 
-- I want to see results of the selected report.
-- I want the results of the report to be formatted in a usable manner.
-- I want to be able to sort the results by each column.
-- The table's columns are defined in the report data JSON.
-- If the API response is not found, malformed or incomplete, I want to be informed accordingly.
+# Conclution
 
-Consider best practices, usability and error handling matters.
-
-## Deliverables
-
-- A link to a github/similar repository, a zipped git repository with source code **or** any other deliverable you prefer.
-- Instructions on how to build and run it in a web browser, preferably in the form of README.md.
-
-- node server.js
+Please feel free to reach out if you have any questions or problems while accessing the website or the git repository.
